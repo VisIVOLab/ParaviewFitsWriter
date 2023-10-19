@@ -1,0 +1,11 @@
+NAME
+  FitsWriter
+CONDITION
+  NOT PARAVIEW_BUILD_LEGACY_REMOVE
+DESCRIPTION
+  Plugin that adds writer for Fits files
+REQUIRES_MODULES
+  ParaView::VTKExtensionsCore
+  VTK::CommonCore
+  VTK::CommonExecutionModel
+  VTK::vtksys
